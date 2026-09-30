@@ -2,16 +2,14 @@
  * LeetCode #1: Two Sum
  * Difficulty: Easy
  * Language: Python
- * Date: 2026-09-30T17:21:21.921Z
+ * Date: 2026-09-30T17:49:02.110Z
  */
 
-class Solution:
-    def twoSum(self, nums ,target):
-        seen = {}
-        for i, num in enumerate(nums):
-            complement = target - num 
-            if complement in seen:
-                return[seen[complement], i]
-            seen[num] = i
-        return []
-
+class Solution(object):
+    def containsDuplicate(self, nums):
+        seen = set()
+        for num in nums:
+            if num in seen:
+                return True 
+            seen.add(num)
+        return False
