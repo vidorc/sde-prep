@@ -2,7 +2,7 @@
  * LeetCode #5: Longest Palindromic Substring
  * Difficulty: Medium
  * Language: Python
- * Date: 2026-10-13T00:24:48.770Z
+ * Date: 2026-10-13T00:24:56.169Z
  */
 
 class Solution(object):
